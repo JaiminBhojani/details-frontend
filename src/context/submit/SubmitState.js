@@ -4,7 +4,7 @@ const REACT_APP_URL = process.env.REACT_APP_URL;
 
 const SubmitState = (props) => {
     const host =  REACT_APP_URL;
-
+    const dinitial = []
     // const [details,setDetails] = useState(productinitial);
     const[details,setDetails] = useState(dinitial);
 
